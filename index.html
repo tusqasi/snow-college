@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <h1>
+      Simulating Boids from
+      <a href="https://www.red3d.com/cwr/boids/" target="_blank">
+        Craig Reynolds model</a
+      >
+    </h1>
+    <div id="container">
+      <div id="container-main">
+        <main id="canvas-element"></main>
+        <div id="side-bar">
+          <button id="reset-sim" onclick="reset_sketch()" type="button">
+            Reset
+          </button>
+          <button id="update-boids" onclick="updateBoids()" type="button">
+            Update
+          </button>
+          <input type="text" id="num-input" value="300" />
+        </div>
+      </div>
+      <div id="sliders"></div>
+    </div>
+
+    <footer>
+      <p>
+        <a href="https://p5js.org/get-started/" target="_blank">
+          Start with p5js to make something like this.
+        </a>
+      </p>
+      <p>
+        <a href="https://github.com/tusqasi" target="_blank">
+          Checkout my github for more of code shitposts
+        </a>
+      </p>
+    </footer>
+    <script src="boid.js"></script>
+    <script src="sketch.js"></script>
+    <script>
+      var num = document.getElementById("num-input");
+      num.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+          event.preventDefault();
+          document.getElementById("update-boids").click();
+        }
+      });
+    </script>
+  </body>
+</html>

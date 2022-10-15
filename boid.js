@@ -158,6 +158,7 @@ class Boid {
     strokeWeight(1);
     noFill();
     circle(this.position.x, this.position.y, 50);
+    // this is color blue.
     stroke(BLUE);
     this.draw();
     pop();

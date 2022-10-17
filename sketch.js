@@ -5,11 +5,11 @@
 // Some variables which are used at many places
 
 // Canvas size
-let W = 800;
-let H = 600;
+let W = 600;
+let H = 400;
 
 // Number of boids
-let N = 100;
+let N`` = 100;
 
 let alignementOn = true;
 let cohesionOn = true;
@@ -18,11 +18,11 @@ let seperationOn = true;
 let boids = [];
 
 // Colors
-let RED = [250, 0, 0];
-let GREEN = [0, 255, 0];
-let BLUE = [0, 0, 255];
-let YELLOW = [255, 255, 0];
-let MAGENTA = [255, 0, 255];
+let RED = [100, 0, 0];
+let GREEN = [0, 100, 0];
+let BLUE = [0, 0, 1000];
+let YELLOW = [100, 100, 0];
+let MAGENTA = [100, 0, 100];
 
 
 // Sliders div

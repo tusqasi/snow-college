@@ -75,9 +75,9 @@ function createSliders() {
   let seperateDiv = createDiv().id("seperate");
   let cohereDiv = createDiv().id("cohere");
 
-  seperateDiv.child(createP("Seperation"));
-  alignDiv.child(createP("Alignment"));
-  cohereDiv.child(createP("Cohesion"));
+  seperateDiv.child(createP("Seperation slider"));
+  alignDiv.child(createP("Alignment slider"));
+  cohereDiv.child(createP("Cohesion slider"));
 
   seperationSlider = createSlider(0, 2, 1, 0.1)
     .id("seperation")

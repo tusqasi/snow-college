@@ -20,3 +20,7 @@ A short list of steps to your first contribution
 6. Back to your repo (github.com/<your_username>/snow-college) click the contribute button and make a pull request.
 ---
 <strong><h3>Check out the issues tab for more</h3></strong>
+
+<h2>Click below to visit:</h2>
+<a href="https://tusqasi.github.io/snow-college/">VIST</a>
+

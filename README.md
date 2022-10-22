@@ -18,3 +18,5 @@ A short list of steps to your first contribution
 4. Make changes and commit.(`git add path_to_file_which_changed` and then `git commit -m "Message here"`).
 5. Now push the changes with `git push`.
 6. Back to your repo (github.com/<your_username>/snow-college) click the contribute button and make a pull request.
+---
+<strong><h3>Check out the issues tab for more</h3></strong>

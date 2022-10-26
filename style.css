@@ -11,6 +11,9 @@ canvas {
   display: block;
   
 }
+.sliderDiv {
+  margin: 0px 20px 20px 20px;
+}
 
 /* Just playing around with some properties*/
 #container {
@@ -34,7 +37,6 @@ canvas {
   height:3rem;
   width:6rem;
   background-color: chocolate;
-}
 }
 #update-boids {
   height:3rem;

@@ -71,9 +71,10 @@ let createdSliders = false;
 // Creates and puts the sliders on the page
 function createSliders() {
   sliders = select("#sliders");
-  let alignDiv = createDiv().id("align");
-  let seperateDiv = createDiv().id("seperate");
-  let cohereDiv = createDiv().id("cohere");
+  let alignDiv = createDiv().id("align").class("sliderDiv");
+  let seperateDiv = createDiv().id("seperate").class("sliderDiv");
+  let cohereDiv = createDiv().id("cohere").class("sliderDiv");
+  console.log(alignDiv);
 
   seperateDiv.child(createP("Seperation slider"));
   alignDiv.child(createP("Alignment slider"));

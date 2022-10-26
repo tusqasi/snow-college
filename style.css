@@ -3,12 +3,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Courier New", monospace;
-  background: #141414;
-  color: lightgray;
+  background:rgb(60, 144, 177);
+  color:black;
 }
 
 canvas {
   display: block;
+  
 }
 
 /* Just playing around with some properties*/
@@ -32,10 +33,13 @@ canvas {
 #reset-sim {
   height:3rem;
   width:6rem;
+  background-color: chocolate;
+}
 }
 #update-boids {
   height:3rem;
   width:6rem;
+  background-color: crimson;
 }
 #side-bar {
   display: flex;
@@ -44,6 +48,7 @@ canvas {
 #num-input {
   width: 6rem;
   color: red;
+  background-color: bisque;
 }
 #sliders{
   display:flex;

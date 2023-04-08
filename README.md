@@ -4,8 +4,9 @@ Did you ever thought how flocks birds made formations in the sky? How schools of
 
 What about simulating it with our computers? This is a implementation of a  [Coding Train's](https://www.youtube.com/watch?v=mhjuuHl6qHM) tutorial. Daniel implements the behaviours in the article from Craig Reynolds https://www.red3d.com/cwr/boids/
 
+<h1>
 Check it out at https://editor.p5js.org/tusqasi/full/iqTx04Dg6
-
+</h1>
 
 # Contributing
 

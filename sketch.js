@@ -17,6 +17,31 @@ let seperationOn = true;
 
 let boids = [];
 
+function boundCoordinate(x,lx,hx,m){
+  
+  lx=lx+m/2;
+  hx=hx-m;
+
+  if(x<lx)
+    return lx;
+  else if(x>hx)
+    return hx;
+  else 
+    return x;
+}
+
+window.addEventListener("mousemove",(e)=>{
+  let bounding=document.querySelector(".onee").getBoundingClientRect();
+  let x=e.clientX,y=e.clientY;
+
+  let newX=boundCoordinate(x,bounding.x,bounding.x+bounding.width,40);
+  let newY=boundCoordinate(y,bounding.y,bounding.y+bounding.height,45);
+
+  boids[0].position.x=newX-119;
+  boids[0].position.y=newY-80;
+
+})
+
 // Colors
 let RED = [250, 0, 0];
 let GREEN = [0, 255, 0];
